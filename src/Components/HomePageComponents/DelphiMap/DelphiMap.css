@@ -1,0 +1,17 @@
+.line5 {
+    transition: width 0.3s ease;
+    width: 0;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 10px;
+  }
+  
+  .see-more {
+    display: flex;
+    align-items: center;
+  }
+  
+  .see-more:hover .line5 {
+    width: 50px;
+  }
+  

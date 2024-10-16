@@ -1,0 +1,21 @@
+.text-stroke {
+  -webkit-text-stroke: 3px #707070;
+}
+
+.line3 {
+  transition: width 0.3s ease;
+  width: 0;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+.lets-eat {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lets-eat:hover .line3 {
+  width: 50px;
+}

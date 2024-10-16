@@ -1,0 +1,47 @@
+.navitem-hover {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  .navitem-hover::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    background-color: black; 
+    transition: 0.3s all ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .navitem-hover:hover::before {
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+  }
+
+  .active{
+    border-bottom: 1px solid black;
+  }
+
+  .custom-border{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+  }
+
+  #default-sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #default-sidebar.translate-x-0 {
+    transform: translateX(0);
+  }
+  
+  #default-sidebar.-translate-x-full {
+    transform: translateX(-100%);
+  }
+  
+  

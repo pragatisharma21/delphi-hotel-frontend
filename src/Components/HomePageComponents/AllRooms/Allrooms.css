@@ -1,0 +1,16 @@
+.line2 {
+  transition: width 0.3s ease;
+  width: 0;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+.All-rooms {
+  display: flex;
+  align-items: center;
+}
+
+.All-rooms:hover .line2 {
+  width: 50px;
+}
