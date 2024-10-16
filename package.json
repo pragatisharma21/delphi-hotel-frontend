@@ -1,6 +1,7 @@
 {
   "name": "delphihotel",
   "private": true,
+  "author": "PragatiSharma",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
